@@ -7,7 +7,7 @@ const typeDefs = gql`
         username: String!
         age: Int!
         nationality: Nationality!
-        firends: [User!]
+        friends: [User!]
     }
 
     type Query {
